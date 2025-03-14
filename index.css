@@ -1,0 +1,386 @@
+*{
+    margin: 0;  
+}
+
+body{
+    background-color: rgb(252, 247, 235);
+  
+}
+.headerBlock{
+    width: 100vw;
+    background-color: white;
+    position: sticky;
+    top: 0;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+ 
+ 
+    width: 1000px;
+    margin: auto;
+}
+.header_left{
+    display: flex;
+    flex-direction: row;
+
+    width: 300px;
+    margin-right: auto;
+}
+.header_left>img {
+    width: 35px;
+    margin-right: 10px;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.option>h3 
+.propfile>h3{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.option>i {
+    color: black;
+    opacity: 0.6;
+
+}
+.header_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 600px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+/* main */
+main{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.left_top{
+    width: 225px;
+    border: 1px solid rgb(48, 40, 40);
+   
+    margin: 20px;
+    /* border-radius: 10px; */
+    background-color: white;
+}
+.left_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left_profile>img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.left_top>hr{
+    width: 80%;
+    margin: auto;
+    border: 1px solid lightgray;
+}
+
+.cover{
+    background-color: rgb(48, 148, 148);
+    width: 100%;
+    height: 70px;
+    margin-bottom: -40px;
+}
+.left_profile>h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin:8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.left_profile>h3,
+.views_number>h3,
+.profile_views>h3,
+.premium>h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: gray;
+ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/* .views_number{
+    justify-content: space-between;
+} */
+.profile_views,
+.premium,
+.my_items {
+    padding: 20px;
+}
+
+/* feed */
+.createPost,
+.onePost{
+    /* width: 4500px; */
+    border: 2px solid lightgrey;
+    background-color: white;
+    /* height: 100%; */
+    border-radius: 10px;
+    margin: 20px;
+}
+.createPost {
+    padding: 10px;
+    width: 450;
+}
+.onePost{
+    width: 470;
+}
+.createPost_Top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.createPost_Top>input{
+    height: 40px;
+    width: 80%;
+    border-radius: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid gray;
+}
+
+.createPost_Top>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.creatPost_Bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.createPost_Option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.createPost_Option>i{
+    font-size: 20px;
+}
+.createPost_Option>h2{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.rightsidebar{
+    width: 300px;
+    background-color:white;
+    height: 100%;
+}
+/*Post */
+.onePost_top>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.onePost_top {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.nameAndTime>h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nameAndTime>p {
+    height: 15px;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+}
+
+.nameAndTime>h4 {
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+}
+.onePost_middle{
+    margin-top: 15px;
+}
+
+.onePost_middle>p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.onePost_middle>img{
+    width: 450px;
+
+}
+.nameAndTime>h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+.nameAndTime>p{
+    height: 20px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.bottom_bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom_option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 10px 15px;
+    border-radius: 4px;
+
+    transition: all 200ms;
+
+}
+.bottom_option:hover{
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+.bottom_option>i{
+    font-size: 16px;
+}
+.bottom_option>h2{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 6px;
+}
+.bottom_top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid lightgray;
+}
+.left,
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+.icons{
+    margin-right: 5px;
+}
+.icons>i{
+    font-size: 16px;
+    padding: 1px;
+    background-color: white;
+    border-radius: 50%;
+}
+.right>p,
+.left>p{
+    font-size: 12px;
+    color: gray;  
+}
+.right>p:hover,
+.left>p:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 253);
+    cursor: pointer;
+}
+.right>h1{
+    font-size: 20px;
+    margin: 0 5px;
+    color: gray;
+}
+.onePost_bottom{
+    padding: 10px;
+}
+
+.txt>ul>p{
+    color: gray;
+}
+
+.right_top,
+.right_bottom{
+    
+    border: 2px solid lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.upright{
+    width: 270px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.txt1{
+    border-radius: 50%;
+    border: 2px;
+}
+.down>h2:hover,
+.down>i:hover{
+    cursor: pointer;
+    background-color: rgb(196, 195, 195);
+    border-radius: 10%;
+    width: 150px;
+   
+}
+.down>h2{
+    color: rgb(158, 158, 153);
+    padding:10px;
+    font-size:20px ;
+   
+}
+
+.btop{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 10px;
+}
+.right_bottom{
+    width: 270px;
+    height: 65%;
+    padding: 10px; 
+}
+.rightsidebar{
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(252, 247, 235);
+}
+
